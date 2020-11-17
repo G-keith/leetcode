@@ -14,7 +14,7 @@
 // Related Topics 数组 哈希表 
 // 👍 9365 👎 0
 
-package com.cute.leetcode.editor.cn;
+package editor.cn;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -34,6 +34,7 @@ public class TwoSum {
     /**
      * 逻辑：运用map，实现一次遍历查找到结果
      */
+    //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] result=new int[2];
@@ -50,5 +51,5 @@ public class TwoSum {
         return result;
     }
 }
-
+//leetcode submit region end(Prohibit modification and deletion)
 }
